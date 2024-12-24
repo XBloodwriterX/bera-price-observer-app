@@ -1,0 +1,14 @@
+{
+  "name": "bera-price-observer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}
