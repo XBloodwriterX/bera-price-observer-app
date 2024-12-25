@@ -9,5 +9,6 @@ COPY package.json package.json
 RUN bun install
 
 COPY . .
+EXPOSE 7615
 
 CMD ["bun", "start"]
