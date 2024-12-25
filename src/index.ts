@@ -37,7 +37,7 @@ const Server = Bun.serve({
     // const urlParams = new URLSearchParams(url.search);
     if (req.method === "GET") {
       const price = await getPrice();
-      return new Response(JSON.stringify({ price: price }));
+      return new Response(JSON.stringify({ ok: true, price: price }));
     }
 
     return new Response(JSON.stringify({ ok: false }));
